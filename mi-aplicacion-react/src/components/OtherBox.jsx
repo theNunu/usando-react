@@ -23,9 +23,5 @@ function OtherBox() {
     )
 }
 
-createRoot(document.getElementById('root')).render(
-    <OtherBox />
-);
-
 
 export default OtherBox

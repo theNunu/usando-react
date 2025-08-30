@@ -9,24 +9,31 @@ import MyUserBox from './components/MyUserBox'
 import OtherBox from './components/OtherBox'
 import MyForm from './components/myForm'
 import PruebaRegister from './components/PruebaRegister'
-import NewForm from './components/newFormBox'
-import NewFormBox from './components/newFormBox'
+// import NewForm from './components/newFormBox'
+// import NewFormBox from './components/newFormBox'
+import Ejemplo1 from './components/ejemplo1'
 
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<ThingsBox />} />
-        <Route path="/things" element={<ThingsBox />} />
-        <Route path="/my-user" element={<MyUserBox />} />
-        <Route path="/other" element={<OtherBox />} />
-        <Route path="/my-form" element={<MyForm />} />
-        <Route path="/prueba-register" element={<PruebaRegister />} />
-        <Route path="/new-form" element={<NewFormBox/>} />
-        
-      </Routes>
-    </Router>
+
+  
+      <Router>
+        <Routes>
+          <Route path="/" element={<ThingsBox />} />
+          <Route path="/things" element={<ThingsBox />} />
+          <Route path="/my-user" element={<MyUserBox />} />
+          <Route path="/other" element={<OtherBox />} />
+          <Route path="/my-form" element={<MyForm />} />
+          <Route path="/prueba-register" element={<PruebaRegister />} />
+          {/* <Route path="/new-form" element={<NewFormBox />} /> */}
+          <Route path="/ejemplo1" element={<Ejemplo1 />} />
+
+        </Routes>
+      </Router>
+
+
+
 
   )
 

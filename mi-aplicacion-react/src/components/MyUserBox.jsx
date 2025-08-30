@@ -1,4 +1,4 @@
-import { createRoot } from 'react-dom/client'
+
 import { useState } from 'react';
 function MyUserBox() {
   const [name, setName] = useState("");
@@ -32,9 +32,6 @@ function MyUserBox() {
   )
 }
 
-createRoot(document.getElementById('root')).render(
-  <MyUserBox />
-);
 
 
 export default MyUserBox
