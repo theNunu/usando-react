@@ -9,6 +9,8 @@ import MyUserBox from './components/MyUserBox'
 import OtherBox from './components/OtherBox'
 import MyForm from './components/myForm'
 import PruebaRegister from './components/PruebaRegister'
+import NewForm from './components/newFormBox'
+import NewFormBox from './components/newFormBox'
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
         <Route path="/other" element={<OtherBox />} />
         <Route path="/my-form" element={<MyForm />} />
         <Route path="/prueba-register" element={<PruebaRegister />} />
+        <Route path="/new-form" element={<NewFormBox/>} />
         
       </Routes>
     </Router>
