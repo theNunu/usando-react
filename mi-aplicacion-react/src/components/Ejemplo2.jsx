@@ -1,5 +1,6 @@
 import { useState } from 'react'; //omponente "recuerde" cierta información y la muestre.
 import "./css/ejemplo2.css"
+import BotonesRutas from './BotonesRutas';
 
 function Producto() {
     const products = [
@@ -128,6 +129,7 @@ function LaLista() {
 export default function Ejemplo2() {
     return (
         <div>
+            <BotonesRutas/>
             <h1>Ejemplo 2</h1>
             <Producto />
             <MyButton />

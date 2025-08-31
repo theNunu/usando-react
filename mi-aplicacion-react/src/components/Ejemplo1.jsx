@@ -1,3 +1,4 @@
+import BotonesRutas from "./BotonesRutas";
 import "./css/ejemplo1.css"
 import "./css/perfilAlexis.css"
 function MyButton({ className }) {
@@ -67,6 +68,7 @@ export default function Ejemplo1() {
 
     return (
         <div className="ejemplo1-fondo">
+            <BotonesRutas/>
             <h1>Welcome to my app</h1>
             <MyButton className="my-button" />
             <Profile />
