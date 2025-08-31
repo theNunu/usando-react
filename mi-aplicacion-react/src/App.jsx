@@ -12,6 +12,9 @@ import PruebaRegister from './components/PruebaRegister'
 // import NewForm from './components/newFormBox'
 // import NewFormBox from './components/newFormBox'
 import Ejemplo1 from './components/ejemplo1'
+import Ejemplo2 from './components/ejemplo2'
+import MovingDot from './components/MovingDot'
+import BotonLoco from './components/BotonLoco'
 
 
 function App() {
@@ -28,6 +31,9 @@ function App() {
           <Route path="/prueba-register" element={<PruebaRegister />} />
           {/* <Route path="/new-form" element={<NewFormBox />} /> */}
           <Route path="/ejemplo1" element={<Ejemplo1 />} />
+          <Route path="/ejemplo2" element={<Ejemplo2/>}/>
+          <Route path="bola" element={<MovingDot/>}/>
+          <Route path="boton" element={<BotonLoco/>}/>
 
         </Routes>
       </Router>

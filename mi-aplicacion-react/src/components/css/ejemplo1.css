@@ -1,0 +1,30 @@
+.ejemplo1-fondo {
+    background-color: aqua;
+    color:rgb(0, 0, 138);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:small;
+    padding:8px 4px;  /* ancho y alto interno */
+
+}
+
+.my-button {
+    background-color: royalblue; /* color de fondo */
+     margin-left: auto; /* se va a la derecha */
+  /*
+    margin-right: auto; /* se va al centro */
+
+    font-size: 18px;    /* tamaño de texto */
+    padding: 6px 10px; /* ancho y alto interno */
+    color: white;                /* color del texto */
+    border: 4px solid rgb(32, 4, 159); /* borde normal */
+    border-radius: 10px;     /* esquinas redondeadas */
+    margin-left: 400px;  /* mueve 20px a la derecha */
+    
+
+}
+
+.my-button:hover {
+  background-color: darkblue;  /* cambia de color */
+  transform: scale(1.1);       /* se agranda */
+  transition: 0.4s; /* hace que el cambio sea suave */
+}
